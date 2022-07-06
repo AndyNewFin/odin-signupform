@@ -1,0 +1,85 @@
+/* TOP: Project - Sign Up Form (Try 1) */ 
+
+.container {
+    display: flex;
+}
+
+.left {
+   background-image: url(shridhar-gupta-dZxQn4VEv2M-unsplash.jpg);
+   background-repeat: no-repeat;
+    background-position: center;
+    min-height: 1000px;
+    min-width: 500px;
+    position: relative;
+    display: flex;
+}
+
+@font-face {
+    font-family: "norsebold";
+    src: url(./Norse-Bold.otf) format("opentype") ;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.logocontainer {
+    height: 50px;
+    min-width: 500px;
+    background-color: rgba(0,0,0,.5);
+    margin-top: 3rem;
+    display: flex;
+    font-size: 50px;
+    align-items: center;
+    color: white;
+    justify-content: space-around;
+    padding: .25em 0;
+}
+
+.rightcont {
+    display: flex;
+    flex-direction: column;
+}
+
+.upperright {
+    height: 225px;
+    background-color: rgb(169, 225, 171);
+    margin-top: 20px;
+    margin-bottom: 0px;
+    text-align: middle;
+    padding-left: 15px;
+}
+
+.rightmid {
+    background-color: white;
+    margin-top: 25px;
+    padding-left: 15px;
+    margin-bottom: 15px;
+}
+
+.rightbottom {
+    background-color: rgb(169, 225, 171);
+    height: 200px;
+}
+
+button {
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: blue;
+    color: white;
+    font-weight: bolder;
+    width: 200px;
+    height: 40px;
+    border-radius: 15px;
+}
+
+.login {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+strong {
+    color: blue;
+}
+
+.container {
+    font-family: sans-serif;
+}

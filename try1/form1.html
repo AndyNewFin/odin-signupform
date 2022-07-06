@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOP: Project - Sign Up Form (Try 1)</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+
+    <div class="container">
+
+    <div class="left">
+        <div class="logocontainer">Odin Study Group</div>
+    </div> <!-- closes left -->
+
+    <div class="rightcont">
+ 
+    <div class="upperright">
+        <p>Welcome to Andy NewFin's Study Center! Sign-up below to be part of my study group where we learn web development on The Odin's Project. Study hours are:
+            <ul>
+                <li>Monday: 6:00PM - 8:00PM</li>
+                <li>Tuesday: 6:00PM - 8:00PM</li>
+                <li>Wednesday: <em>Break</em></li>
+                <li>Thursday: 6:00PM - 8:00PM</li>
+                <li>Friday: <em>Break</em></li>
+                <li>Saturday: 1:00PM - 5:00PM</li>
+                <li>Sunday: 1:00PM - 5:00PM</li>
+            </ul>
+        </p>
+    </div> <!-- closes upperright -->
+
+    <div class="rightmid">
+    <form accept="example.com/path" method="post">
+        <label for="firstname">First Name</label>
+        <input type="text" id="first_name" placeholder="Andy">
+
+        <p></p>
+
+        <label for="lasttname">Last Name</label>
+        <input type="text" id="last_name" placeholder="NewFin">
+
+        <p></p>
+
+        <label for="user_password">Password</label>
+        <input type="password" id="user_password" name="password">
+
+        <p>Which language are you learning?</p>
+        <select name="Language">
+            <option value="html" selected>HTML</option>
+            <option value="css">CSS</option>
+            <option value="javascript">JavaScript</option>
+          </select>
+
+        <p>How are you learning how to code?</p>
+          <select name="courses">
+            <optgroup label="Paid Learning">
+              <option value="university">University</option>
+              <option value="bootcamp">Bootcamp</option>
+              <option value="udemy">Udemy Course</option>
+            </optgroup>
+            <optgroup label="Free Learning">
+              <option value="top">The Odin Project</option>
+              <option value="fcc">Free Code Camp</option>
+              <option value="harvard">Harvard CS50</option>
+            </optgroup>
+          </select>
+
+        <h1>Skill Level</h1>
+            <div>
+                <input type="radio" id="beginner" name="skill_type" value="beginner">
+                <label for="beginner">Beginner</label>
+            </div>
+
+            <div>
+                <input type="radio" id="junior" name="skill_type" value="junior">
+                <label for="junior">Junior</label>
+            </div>
+
+            <div>
+                <input type="radio" id="senior" name="skill_type" value="senior">
+                <label for="senior">Senior</label>
+            </div>
+
+            <h1>Computer/Operating System</h1>
+                <div>
+                    <input type="checkbox" id="windows" name="os" value="windows">
+                    <label for="windows">Windows</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="apple" name="os" value="apple">
+                    <label for="apple">Apple</label>
+                </div>
+
+
+                <div>
+                <input type="checkbox" id="xubuntu" name="os" value="xubuntu">
+                <label for="xubuntu">Xubuntu</label>
+                </div>
+
+            </div> <!-- closes rightmid -->
+
+        <div class="rightbottom"> 
+        <p></p>
+        <button type="submit">Create Account</button>
+        <div class="login">Already have an account? <Strong>Log in</Strong></div>
+       
+         </div> <!-- closes rightbottom -->
+
+    </div> <!-- closes rightcont-->
+
+    </div> <!-- closes container -->
+
+</body>
+</html>
